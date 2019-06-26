@@ -103,7 +103,7 @@ trait Generic {
         if ($type == 'int')
             return is_int($value);
         if ($type == 'bool' || $type == 'boolean')
-            return is_double($value);
+            return is_bool($value);
         if ($type == 'float' || $type == 'double')
             return is_float($value);
         
